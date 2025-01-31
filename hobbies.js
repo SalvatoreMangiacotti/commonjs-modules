@@ -3,6 +3,7 @@
 // La funzione dovrebbe restituire un array di stringhe contenenti gli hobby.
 // 2. Esporta la funzione dal file. 
 
+
 const getUserHobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
 
     const hobbies = [hobbyOne, hobbyTwo, hobbyThree];
@@ -11,6 +12,6 @@ const getUserHobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
 
 }
 
-console.log(getUserHobbies('Bongo Drumming', 'Banana Cooking', 'Treasure Hunting'));
+getUserHobbies('Bongo Drumming', 'Banana Cooking', 'Treasure Hunting');
 
 module.exports = getUserHobbies;
