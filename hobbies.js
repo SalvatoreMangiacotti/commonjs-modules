@@ -12,6 +12,4 @@ const getUserHobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
 
 }
 
-getUserHobbies('Bongo Drumming', 'Banana Cooking', 'Treasure Hunting');
-
 module.exports = getUserHobbies;

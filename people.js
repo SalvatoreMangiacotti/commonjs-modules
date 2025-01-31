@@ -7,17 +7,17 @@
 
 
 const getUserData = require('./names.js');
-const getUserHobbies = require('./hobbies.js')
+const getUserHobbies = require('./hobbies.js');
 
 const newFunction = () => {
 
-    const user = getUserData();
-    const hobbies = getUserHobbies();
+    const userData = getUserData('Donkey', 'Kong');
+    const userHobbies = getUserHobbies('Bongo Drumming', 'Banana Cooking', 'Treasure Hunting');
 
     const namesAndHobbies = {
 
-        fullName: user,
-        hobbies: hobbies
+        fullName: userData,
+        hobbies: userHobbies
 
     }
 

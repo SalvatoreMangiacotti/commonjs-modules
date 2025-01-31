@@ -17,6 +17,4 @@ const getUserData = (firstName, lastName) => {
 
 }
 
-getUserData('Donkey', 'Kong');
-
 module.exports = getUserData;
